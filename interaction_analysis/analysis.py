@@ -9,6 +9,7 @@ import pickle
 from skimage.morphology import convex_hull_image
 from predict import classification
 import pandas
+import cv2
 #设置一个解析器，添加参数解析参数
 
 parser = argparse.ArgumentParser()
